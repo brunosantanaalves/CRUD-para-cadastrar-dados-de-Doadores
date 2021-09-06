@@ -148,6 +148,7 @@ class Database {
      * @return boolean 
      */
     public function delete($where){
+        
         // monta a query
         $query = 'DELETE FROM '.$this->table.' WHERE '.$where;
 
